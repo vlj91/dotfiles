@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  tasks:
+    - copy:
+        src: vimrc
+        dest: "{{ lookup('env', 'HOME') }}/.vimrc"
+    - copy:
+        src: tmux.conf
+        dest: "{{ lookup('env', 'HOME') }}/.tmux.conf"
+
