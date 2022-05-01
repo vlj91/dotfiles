@@ -1,0 +1,8 @@
+[user]
+	signingkey = 1901116912B371E6
+	name = Vaughan Jones
+	email = vlj7491@gmail.com
+[core]
+	editor = vim
+[init]
+	defaultBranch = master
